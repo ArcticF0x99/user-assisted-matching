@@ -1,0 +1,789 @@
+@prefix : <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:acquisition_time a owl:Class ;
+    rdfs:label "duration",
+        "length of time",
+        "run time",
+        "running time",
+        "runtime",
+        "time",
+        "time span",
+        "continuance",
+        "duration unit",
+        "time unit",
+        "unit of duration",
+        "unit of time",
+        "time in physics",
+        "Spans of time" .
+
+:acquisition_time_after_on a owl:Class ;
+    rdfs:label "duration after switch on",
+        "length of time after switch on",
+        "run time after switch on",
+        "running time after switch on",
+        "runtime after switch on",
+        "time after switch on",
+        "time span after switch on",
+        "continuance after switch on",
+        "duration unit after switch on",
+        "time unit after switch on",
+        "unit of duration after switch on",
+        "unit of time after switch on",
+        "time in physics after switch on",
+        "Spans of time after switch on" .
+
+:acquisition_time_re a owl:Class ;
+    rdfs:label "duration for reacquisition",
+        "length of time for reacquisition",
+        "run time for reacquisition",
+        "running time for reacquisition",
+        "runtime for reacquisition",
+        "time for reacquisition",
+        "time span for reacquisition",
+        "continuance for reacquisition",
+        "duration unit for reacquisition",
+        "time unit for reacquisition",
+        "unit of duration for reacquisition",
+        "unit of time for reacquisition",
+        "time in physics for reacquisition",
+        "Spans of time for reacquisition" .
+
+:battery_capacity a owl:Class ;
+    rdfs:label "capacity",
+        "capacity for batteries",
+        "electric battery capacity" .
+
+:command_interface a owl:Class ;
+    rdfs:label "command/telemetry",
+        "command/tlm interface",
+        "command/Telemetry",
+        "control and telemetry interface",
+        "tc/tm interface",
+        "tc/tc interface",
+        "tt&c",
+        "ttc interface",
+        "tele-command interface",
+        "telecommand & telemetry",
+        "telemetry output interface",
+        "telemetry interface",
+        "telemetry/command interface",
+        "command and data interfaces",
+        "command and telemetry plug",
+        "control and housekeeping interface",
+        "rcu",
+        "remote",
+        "itunes remote",
+        "rcuda",
+        "remote",
+        "remote control",
+        "remote control unit",
+        "remote operation",
+        "telecommand",
+        "teleoperation" .
+
+:data_interface a owl:Class ;
+    rdfs:label "data",
+        "data outputs",
+        "data and control interface",
+        "digital interface",
+        "digital i/f",
+        "input interface",
+        "data format",
+        "data formats",
+        "db",
+        "computer data",
+        "data",
+        "data discovery",
+        "data mining",
+        "database",
+        "datamining",
+        "knowledge discovery",
+        "data point",
+        "datum" .
+
+:data_output_format a owl:Class ;
+    rdfs:label "data format",
+        "data formats" .
+
+:data_output_interface a owl:Class ;
+    rdfs:label "impl",
+        "implements",
+        "implements (java)",
+        "computer interface",
+        "interface",
+        "protocol",
+        "software interface",
+        "interfaces",
+        "implement",
+        "software interfaces",
+        "implement (java)",
+        "computer interfaces",
+        "protocols",
+        "data point",
+        "data interface" .
+
+:detector_height a owl:Class .
+
+:detector_resolution a owl:Class .
+
+:detector_width a owl:Class .
+
+:diameter a owl:Class ;
+    rdfs:label "dia",
+        "dia.",
+        "Ø",
+        "request",
+        "rq",
+        "o",
+        "obj",
+        "object",
+        "asking",
+        "atomic number 8",
+        "diam",
+        "oxygen",
+        "diapause",
+        "dormancy",
+        "lethargus",
+        "sleep",
+        "sleeping",
+        "dialect",
+        "idiom",
+        "quiescence",
+        "quiescency" .
+
+:failure_rate a owl:Class ;
+    rdfs:label "failures in time rate",
+        "fit rate" .
+
+
+:fov a owl:Class ;
+    rdfs:label "field of view",
+        "angle of view",
+        "field of view",
+        "visual field" .
+
+:height a owl:Class ;
+    rdfs:label "thick",
+        "thickness",
+        "krull dimension",
+        "vowel height",
+        "acme",
+        "elevation",
+        "meridian",
+        "peak",
+        "pinnacle",
+        "summit",
+        "superlative",
+        "tiptop",
+        "top" .
+
+:input_voltage a owl:Class ;
+    rdfs:label "supply voltage",
+        "input voltage range",
+        "voltage",
+        "dc supply voltage",
+        "dc voltage",
+        "dc range voltage",
+        "supply voltage range",
+        "power supply voltage",
+        "operating voltage",
+        "+0 v",
+        "+0v",
+        "0 v",
+        "0v",
+        "earthing",
+        "gnd",
+        "svs",
+        "u",
+        "v",
+        "atomic number 23",
+        "atomic number 92",
+        "base",
+        "circuit ground",
+        "earth",
+        "electric tension",
+        "electrical earth",
+        "electrical ground",
+        "electromotive force",
+        "emf",
+        "establish",
+        "found",
+        "ground",
+        "ground (electricity)",
+        "supply voltage supervisory circuit",
+        "uranium",
+        "vanadium",
+        "voltage",
+        "voltage reference" .
+
+
+:input_voltage_max a owl:Class ;
+    rdfs:label "supply voltage max",
+        "input voltage range max",
+        "voltage max",
+        "dc supply voltage max",
+        "dc voltage max",
+        "dc range voltage max",
+        "supply voltage range max",
+        "power supply voltage max",
+        "operating voltage max",
+        "+0 v max",
+        "+0v max",
+        "0 v max",
+        "0v max",
+        "earthing max",
+        "gnd max",
+        "svs max",
+        "u max",
+        "v max",
+        "atomic number 23 max",
+        "atomic number 92 max",
+        "base max",
+        "circuit ground max",
+        "earth max",
+        "electric tension max",
+        "electrical earth max",
+        "electrical ground max",
+        "electromotive force max",
+        "emf max",
+        "establish max",
+        "found max",
+        "ground max",
+        "ground (electricity) max",
+        "supply voltage supervisory circuit max",
+        "uranium max",
+        "vanadium max",
+        "voltage max",
+        "voltage reference max" .
+
+:input_voltage_min a owl:Class ;
+    rdfs:label "supply voltage min",
+        "input voltage range min",
+        "voltage min",
+        "dc supply voltage min",
+        "dc voltage min",
+        "dc range voltage min",
+        "supply voltage range min",
+        "power supply voltage min",
+        "operating voltage min",
+        "+0 v min",
+        "+0v min",
+        "0 v min",
+        "0v min",
+        "earthing min",
+        "gnd min",
+        "svs min",
+        "u min",
+        "v min",
+        "atomic number 23 min",
+        "atomic number 92 min",
+        "base min",
+        "circuit ground min",
+        "earth min",
+        "electric tension min",
+        "electrical earth min",
+        "electrical ground min",
+        "electromotive force min",
+        "emf min",
+        "establish min",
+        "found min",
+        "ground min",
+        "ground (electricity) min",
+        "supply voltage supervisory circuit min",
+        "uranium min",
+        "vanadium min",
+        "voltage min",
+        "voltage reference min" .
+
+:length a owl:Class ;
+    rdfs:label "depth" .
+
+:lifetime a owl:Class ;
+    rdfs:label "lifetime",
+        "life span",
+        "lifespan",
+        "life",
+        "life-time",
+        "design life",
+        "design lifetime",
+        "expected life",
+        "life duration",
+        "mission life" .
+
+:linearity a owl:Class ;
+    rdfs:label "one-dimensionality",
+        "proportionality",
+        "linear",
+        "additive" .
+
+:mass a owl:Class ;
+    rdfs:label "weight",
+        "kg",
+        "weighs",
+        "wt." .
+
+:mechanical_vibration a owl:Class ;
+    rdfs:label "vibration",
+        "vibrations",
+        "oscillation" .
+
+:optics a owl:Class .
+
+:output_current a owl:Class ;
+    rdfs:label "outputs analog current",
+        "power output maximum current",
+        "current",
+        "internet television",
+        "stream",
+        "infinite lazy list",
+        "output device",
+        "stream",
+        "streaming television",
+        "well out",
+        "output devices" .
+
+:output_current_max a owl:Class ;
+    rdfs:label "outputs analog current max",
+        "power output maximum current max",
+        "current max",
+        "internet television max",
+        "stream max",
+        "infinite lazy list max",
+        "output device max",
+        "stream max",
+        "streaming television max",
+        "well out max",
+        "output devices max" .
+
+:output_current_min a owl:Class ;
+    rdfs:label "outputs analog current min",
+            "power output maximum current min",
+            "current min",
+            "internet television min",
+            "stream min",
+            "infinite lazy list min",
+            "output device min",
+            "stream min",
+            "streaming television min",
+            "well out min",
+            "output devices min" .
+
+:output_power a owl:Class ;
+    rdfs:label "power dissipation",
+        "cpu power dissipation",
+        "central processing unit power dissipation",
+        "power dissipation of the cpu",
+        "power dissipation of the central processing unit" .
+
+:output_power_max a owl:Class ;
+    rdfs:label "power dissipation max",
+            "cpu power dissipation max",
+            "central processing unit power dissipation max",
+            "power dissipation of the cpu max",
+            "power dissipation of the central processing unit max" .
+
+:output_power_min a owl:Class ;
+    rdfs:label "power dissipation min",
+            "cpu power dissipation min",
+            "central processing unit power dissipation min",
+            "power dissipation of the cpu min",
+            "power dissipation of the central processing unit min" .
+
+:output_voltage a owl:Class ;
+    rdfs:label "analog voltage",
+        "vout",
+        "analog output",
+        "analog output voltage",
+        "outputs analog voltage" .
+
+:output_voltage_max a owl:Class ;
+    rdfs:label "max analog voltage",
+            "max vout",
+            "max analog output",
+            "max analog output voltage",
+            "max outputs analog voltage" .
+
+:output_voltage_min a owl:Class ;
+    rdfs:label "min analog voltage",
+            "min vout",
+            "min analog output",
+            "min analog output voltage",
+            "min outputs analog voltage" .
+
+:power a owl:Class .
+
+:power_interface a owl:Class ;
+    rdfs:label "power port",
+        "power connector",
+        "power cable",
+        "power bus interface",
+        "electrical interfaces",
+        "appliance power cable",
+        "cord",
+        "electrical cable",
+        "electrical line",
+        "electrical transmission cable",
+        "electricity line",
+        "line cord",
+        "mains cable",
+        "power cord",
+        "power line",
+        "transmission cable",
+        "transmission line",
+        "utility line",
+        "mains power cables" .
+
+:power_on a owl:Class .
+
+:power_standby a owl:Class ;
+    rdfs:label "power consumption standby",
+        "power output",
+        "transmit power",
+        "backup power",
+        "emergency power",
+        "emergency power system",
+        "failover power system",
+        "power loss protection",
+        "power-loss protection",
+        "secondary power system" .
+
+:radiation_tolerance a owl:Class ;
+    rdfs:label "radiation",
+        "rt",
+        "rtx",
+        "xrt",
+        "radiation therapy",
+        "radiotherapy",
+        "actinotherapy",
+        "irradiation" .
+
+:random_error a owl:Class ;
+    rdfs:label "nea",
+        "noise equivalent angle",
+        "accuracy random error",
+        "disturbance",
+        "indeterminate error",
+        "precision error",
+        "random variation",
+        "statistical error",
+        "perturbation" .
+
+:random_error_across_boresight a owl:Class ;
+    rdfs:label "across boresight nea",
+        "across boresight noise equivalent angle",
+        "across boresight accuracy random error",
+        "across boresight disturbance",
+        "across boresight indeterminate error",
+        "across boresight precision error",
+        "across boresight random variation",
+        "across boresight statistical error",
+        "across boresight perturbation" .
+
+:random_error_boresight a owl:Class ;
+    rdfs:label "boresight nea",
+        "boresight noise equivalent angle",
+        "boresight accuracy random error",
+        "boresight disturbance",
+        "boresight indeterminate error",
+        "boresight precision error",
+        "boresight random variation",
+        "boresight statistical error",
+        "boresight perturbation" .
+
+:sampling_rate a owl:Class .
+
+:sensitivity a owl:Class ;
+    rdfs:label "probability of detection",
+        "recall",
+        "true positive rate",
+        "call back",
+        "call up",
+        "probability of detection",
+        "recollect",
+        "remember",
+        "retrieve",
+        "sensitiveness",
+        "think" .
+
+:size a owl:Class ;
+    rdfs:label "dimension",
+        "dimensions",
+        "dim",
+        "volume",
+        "dimensional envelope",
+        "envelope",
+        "envelope dimension",
+        "lxwxh",
+        "spatial dimension" .
+
+:slew_rate a owl:Class ;
+    rdfs:label "slewrate",
+        "slew rate capability" .
+
+:slew_rate_change a owl:Class ;
+    rdfs:label "change slewrate",
+        "change slew rate capability" .
+
+:stl_file a owl:Class .
+
+:temperature_no_ops a owl:Class ;
+    rdfs:label "non operating temperature",
+        "non operational temperature",
+        "non-operating temperature",
+        "non-operational temperature",
+        "no full performance temperature",
+        "no operating temp range",
+        "no operating range temperature ",
+        "no operating temp range",
+        "no operating temperature range",
+        "no operation Temp",
+        "no operation temperature range",
+        "no operational range",
+        "no tvac operational",
+        "no temperature operating",
+        "no temperature range operation",
+        "no thermal operational",
+        "no thermal operational range",
+        "no switch-on temperature",
+        "no temperature range operational",
+        "no full performance temperature",
+        "non operating temp range",
+        "non operating range temperature ",
+        "non operating temp range",
+        "non operating temperature range",
+        "non operation Temp",
+        "non operation temperature range",
+        "non operational range",
+        "non tvac operational",
+        "non temperature operating",
+        "non temperature range operation",
+        "non thermal operational",
+        "non thermal operational range",
+        "non switch-on temperature",
+        "non temperature range operational" .
+
+:temperature_no_ops_max a owl:Class ;
+    rdfs:label "max non operating temperature",
+        "max non operational temperature",
+        "max non-operating temperature",
+        "max non-operational temperature",
+        "max no full performance temperature",
+        "max no operating temp range",
+        "max no operating range temperature ",
+        "max no operating temp range",
+        "max no operating temperature range",
+        "max no operation Temp",
+        "max no operation temperature range",
+        "max no operational range",
+        "max no tvac operational",
+        "max no temperature operating",
+        "max no temperature range operation",
+        "max no thermal operational",
+        "max no thermal operational range",
+        "max no switch-on temperature",
+        "max no temperature range operational",
+        "max no full performance temperature",
+        "max non operating temp range",
+        "max non operating range temperature ",
+        "max non operating temp range",
+        "max non operating temperature range",
+        "max non operation Temp",
+        "max non operation temperature range",
+        "max non operational range",
+        "max non tvac operational",
+        "max non temperature operating",
+        "max non temperature range operation",
+        "max non thermal operational",
+        "max non thermal operational range",
+        "max non switch-on temperature",
+        "max non temperature range operational" .
+
+:temperature_no_ops_min a owl:Class ;
+    rdfs:label "min non operating temperature",
+        "min non operational temperature",
+        "min non-operating temperature",
+        "min non-operational temperature",
+        "min no full performance temperature",
+        "min no operating temp range",
+        "min no operating range temperature ",
+        "min no operating temp range",
+        "min no operating temperature range",
+        "min no operation Temp",
+        "min no operation temperature range",
+        "min no operational range",
+        "min no tvac operational",
+        "min no temperature operating",
+        "min no temperature range operation",
+        "min no thermal operational",
+        "min no thermal operational range",
+        "min no switch-on temperature",
+        "min no temperature range operational",
+        "min no full performance temperature",
+        "min non operating temp range",
+        "min non operating range temperature ",
+        "min non operating temp range",
+        "min non operating temperature range",
+        "min non operation Temp",
+        "min non operation temperature range",
+        "min non operational range",
+        "min non tvac operational",
+        "min non temperature operating",
+        "min non temperature range operation",
+        "min non thermal operational",
+        "min non thermal operational range",
+        "min non switch-on temperature",
+        "min non temperature range operational" .
+
+:temperature_ops a owl:Class ;
+    rdfs:label "operating temperature",
+        "operational temperature",
+        "full performance temperature",
+        "operating temp range",
+        "operating range temperature ",
+        "operating temp range",
+        "operating temperature range",
+        "operation Temp",
+        "operation temperature range",
+        "operational range",
+        "tvac operational",
+        "temperature operating",
+        "temperature range operation",
+        "thermal operational",
+        "thermal operational range",
+        "switch-on temperature",
+        "temperature range operational" .
+
+:temperature_ops_max a owl:Class ;
+    rdfs:label "max operating temperature",
+        "max operational temperature",
+        "max full performance temperature",
+        "max operating temp range",
+        "max operating range temperature ",
+        "max operating temp range",
+        "max operating temperature range",
+        "max operation Temp",
+        "max operation temperature range",
+        "max operational range",
+        "max tvac operational",
+        "max temperature operating",
+        "max temperature range operation",
+        "max thermal operational",
+        "max thermal operational range",
+        "max switch-on temperature",
+        "max temperature range operational" .
+
+:temperature_ops_min a owl:Class ;
+    rdfs:label "min operating temperature",
+        "min operational temperature",
+        "min full performance temperature",
+        "min operating temp range",
+        "min operating range temperature ",
+        "min operating temp range",
+        "min operating temperature range",
+        "min operation Temp",
+        "min operation temperature range",
+        "min operational range",
+        "min tvac operational",
+        "min temperature operating",
+        "min temperature range operation",
+        "min thermal operational",
+        "min thermal operational range",
+        "min switch-on temperature",
+        "min temperature range operational" .
+
+:temperature_storage a owl:Class ;
+    rdfs:label "storage temperature range",
+        "storing temperature",
+        "absolute temperature",
+        "temp",
+        "temperature",
+        "thermodynamic temperature",
+        "temporary",
+        "temporary worker" .
+
+:temperature_storage_max a owl:Class ;
+    rdfs:label "max storage temperature range",
+        "max storing temperature",
+        "max absolute temperature",
+        "max temp",
+        "max temperature",
+        "max thermodynamic temperature",
+        "max temporary",
+        "max temporary worker" .
+
+:temperature_storage_min a owl:Class ;
+    rdfs:label "min storage temperature range",
+        "min storing temperature",
+        "min absolute temperature",
+        "min temp",
+        "min temperature",
+        "min thermodynamic temperature",
+        "min temporary",
+        "min temporary worker" .
+
+:temperature_survival a owl:Class ;
+    rdfs:label "absolute temperature",
+        "temp",
+        "temperature",
+        "thermodynamic temperature",
+        "survivable temperature range",
+        "tvac survival",
+        "absolute temperature",
+        "temporary",
+        "temporary worker" .
+
+:temperature_survival_max a owl:Class ;
+    rdfs:label "max absolute temperature",
+        "max temp",
+        "max temperature",
+        "max thermodynamic temperature",
+        "max survivable temperature range",
+        "max tvac survival",
+        "max absolute temperature",
+        "max temporary",
+        "max temporary worker" .
+
+:temperature_survival_min a owl:Class ;
+    rdfs:label "min absolute temperature",
+            "min temp",
+            "min temperature",
+            "min thermodynamic temperature",
+            "min survivable temperature range",
+            "min tvac survival",
+            "min absolute temperature",
+            "min temporary",
+            "min temporary worker" .
+
+:update_rate a owl:Class ;
+    rdfs:label "pace",
+        "price list",
+        "process rate",
+        "rate",
+        "rate of process",
+        "rate schedule",
+        "schedule of prices",
+        "speed",
+        "tariff",
+        "velocity",
+        "belt along",
+        "bucket along",
+        "cannonball along",
+        "hasten",
+        "hie",
+        "hotfoot",
+        "intensivity",
+        "pace",
+        "pelt along",
+        "race",
+        "rush",
+        "rush along",
+        "speed",
+        "step on it" .
+
+:width a owl:Class ;
+    rdfs:label "breadth",
+        "comprehensiveness",
+        "largeness" .
